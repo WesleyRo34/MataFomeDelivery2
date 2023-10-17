@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Delivery</title>
+   <link rel="stylesheet" type="text/css" href="style2.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>Delivery</h2>
+        <form>
+            <strong>  <label for="nome">Nome:</label> </strong> 
+            <input type="text" id="nome" name="nome" required>
+
+            <strong><label for="fone">Celular com DDD</label></strong>
+            <input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999"> required>
+<br>
+        <strong><label for="endereço">Endereço:</label></strong>
+            <input type="endereço" id="endereço" name="endereço" required>
+
+        <strong><label for="mensagem">Pedido:</label></strong>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
+
